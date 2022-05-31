@@ -60,6 +60,8 @@ components:
   schemas:
     VoteType:
       type: object
+      required:
+        - candidate
       properties:
         voter:
           type: string

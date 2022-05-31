@@ -52,6 +52,12 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/VoteType'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                type: string
 components:
   schemas:
     VoteType:

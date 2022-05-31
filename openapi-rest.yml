@@ -66,6 +66,7 @@ components:
           example: Matteo
         candidate:
           type: string
+          required: true
           example: Matt Cao
   securitySchemes:
     bearerAuth:
